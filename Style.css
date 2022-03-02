@@ -65,6 +65,13 @@ body {
   background-color: lightcoral;
 }
 
+/*IframePourCarteInteractif*/
+
+.CarteInte{
+  border: solid 5px black;
+  padding: 0px 0px 0px 0px;
+}
+
 .SectionEvent{
   background-color: lightsalmon;
 }
