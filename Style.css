@@ -28,6 +28,7 @@ body {
 /* For desktop: */  
 @media only screen and (min-width: 800px) {
   .col-1 {width: 25%;}
+  .col-1² {width: 45%;}
   .col-2 {width: 50%;}
   .col-3 {width: 75%;}
   .col-4 {width: 100%;}
@@ -41,6 +42,11 @@ body {
 
 .TitleOfArticle{
   font-weight: bold;
+  font-style: italic;
+}
+
+p{
+  text-align: justify;
 }
 
 .aside {
@@ -59,6 +65,17 @@ body {
 
 .SectionImage{
   background-color: lightgreen;
+}
+
+.DecoImg{
+  border-radius: 30px;
+  border: solid 2px black;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.MarginImg{
+  margin-right: 5px;
 }
 
 .SectionCarte{
