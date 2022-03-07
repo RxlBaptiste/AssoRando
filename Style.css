@@ -2,7 +2,9 @@
 
 body {
   overflow-x: hidden;
-  background-color: lightgray;
+  background-color: whitesmoke;
+  margin: 0px;
+  
 }
 
 *{
@@ -39,33 +41,48 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 35px;
+  text-decoration: underline;
+}
+
+.PhraseAccroche{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .TitleOfArticle{
   font-weight: bold;
-  font-style: italic;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Description{
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 p{
   text-align: justify;
 }
 
-.aside {
+/*.aside {
   background-color: lightblue;
   padding: 15px;
   color: white;
   text-align: center;
   font-size: 14px;
-}
+}*/
 
 /*PAGE INDEX*/
 
 .SectionText{
   background-color: lightgray;
+  border: solid 1px black;
 }
 
 .SectionImage{
-  background-color: lightgreen;
+ background-color: lightsteelblue;
+ border: solid 1px black;
 }
 
 .DecoImg{
@@ -80,7 +97,8 @@ p{
 }
 
 .SectionCarte{
-  background-color: lightcoral;
+  background-color: lightskyblue;
+  border: solid 1px black;
 }
 
 .TxtImg{
@@ -96,40 +114,101 @@ p{
 }
 
 .SectionEvent{
-  background-color: lightsalmon;
+  background-color: lightgray;
+  border: solid 1px black;
+}
+
+.Lien{
+  text-decoration: none;
 }
 
 .footer {
   background-color: #0099cc;
   color: #ffffff;
   font-size: 12px;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
+
+.TxtFooter{
+  text-align: center;
+}
+
+.Contact{
+  color: white;
+  text-decoration: none;
+}
+
 
 /*PAGES 2 */
 
+.PageRetour{
+  font-size: 10px;
+  color: black;
+}
+
 .PresentationEvent1{
-background-color: lightblue;
+  background-color: lightsalmon;
+  border: solid 1px black;
 }
 
 .LocalisationEvent1{
-background-color: lightgoldenrodyellow;
+ background-color: lightsalmon;
+ border: solid 1px black;
 }
 
 .PresentationEvent2{
-background-color: lightgreen;
+ background-color: lightgreen;
+ border: solid 1px black;
 }
 
 .LocalisationEvent2{
-background-color: lightpink;
+  background-color: lightgreen;
+  border: solid 1px black;
 }
 
 .PresentationEvent3{
-background-color: lightyellow;
+  background-color: lightcoral;
+  border: solid 1px black;
 }
 
 .LocalisationEvent3{
-background-color: lightcoral;
+  background-color: lightcoral;
+  border: solid 1px black;
+}
+
+.PresentationEvent4{
+  background-color: lightsalmon;
+  border: solid 1px black;
+}
+
+.LocalisationEvent4{
+  background-color: lightsalmon;
+  border: solid 1px black;
+}
+
+.PresentationEvent5{
+  background-color: lightgreen;
+  border: solid 1px black;
+}
+
+.LocalisationEvent5{
+ background-color: lightgreen;
+ border: solid 1px black;
+}
+
+.PresentationEvent6{
+  background-color: lightcoral;
+  border: solid 1px black;
+}
+
+.LocalisationEvent6{
+  background-color: lightcoral;
+  border: solid 1px black;
+}
+
+img{
+  border: solid 3px black;
+  border-radius: 25px;
 }
 
 .container {
